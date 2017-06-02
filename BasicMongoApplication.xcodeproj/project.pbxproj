@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDE10E81EE1F8BE0015D34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE10E71EE1F8BE0015D34E /* AppDelegate.swift */; };
+		1EDE10EA1EE1F8BE0015D34E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE10E91EE1F8BE0015D34E /* ViewController.swift */; };
+		1EDE10ED1EE1F8BE0015D34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE10EB1EE1F8BE0015D34E /* Main.storyboard */; };
+		1EDE10EF1EE1F8BE0015D34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE10EE1EE1F8BE0015D34E /* Assets.xcassets */; };
+		1EDE10F21EE1F8BE0015D34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE10F01EE1F8BE0015D34E /* LaunchScreen.storyboard */; };
+		1EDE10FD1EE1F8BE0015D34E /* BasicMongoApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE10FC1EE1F8BE0015D34E /* BasicMongoApplicationTests.swift */; };
+		1EDE11081EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE11071EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EDE10F91EE1F8BE0015D34E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EDE10DC1EE1F8BE0015D34E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EDE10E31EE1F8BE0015D34E;
+			remoteInfo = BasicMongoApplication;
+		};
+		1EDE11041EE1F8BE0015D34E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EDE10DC1EE1F8BE0015D34E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EDE10E31EE1F8BE0015D34E;
+			remoteInfo = BasicMongoApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EDE10E41EE1F8BE0015D34E /* BasicMongoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMongoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDE10E71EE1F8BE0015D34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EDE10E91EE1F8BE0015D34E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EDE10EC1EE1F8BE0015D34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EDE10EE1EE1F8BE0015D34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EDE10F11EE1F8BE0015D34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EDE10F31EE1F8BE0015D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDE10F81EE1F8BE0015D34E /* BasicMongoApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMongoApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDE10FC1EE1F8BE0015D34E /* BasicMongoApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMongoApplicationTests.swift; sourceTree = "<group>"; };
+		1EDE10FE1EE1F8BE0015D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDE11031EE1F8BE0015D34E /* BasicMongoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMongoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDE11071EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMongoApplicationUITests.swift; sourceTree = "<group>"; };
+		1EDE11091EE1F8BE0015D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EDE10E11EE1F8BE0015D34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDE10F51EE1F8BE0015D34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDE11001EE1F8BE0015D34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EDE10DB1EE1F8BE0015D34E = {
+			isa = PBXGroup;
+			children = (
+				1EDE10E61EE1F8BE0015D34E /* BasicMongoApplication */,
+				1EDE10FB1EE1F8BE0015D34E /* BasicMongoApplicationTests */,
+				1EDE11061EE1F8BE0015D34E /* BasicMongoApplicationUITests */,
+				1EDE10E51EE1F8BE0015D34E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EDE10E51EE1F8BE0015D34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EDE10E41EE1F8BE0015D34E /* BasicMongoApplication.app */,
+				1EDE10F81EE1F8BE0015D34E /* BasicMongoApplicationTests.xctest */,
+				1EDE11031EE1F8BE0015D34E /* BasicMongoApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EDE10E61EE1F8BE0015D34E /* BasicMongoApplication */ = {
+			isa = PBXGroup;
+			children = (
+				1EDE10E71EE1F8BE0015D34E /* AppDelegate.swift */,
+				1EDE10E91EE1F8BE0015D34E /* ViewController.swift */,
+				1EDE10EB1EE1F8BE0015D34E /* Main.storyboard */,
+				1EDE10EE1EE1F8BE0015D34E /* Assets.xcassets */,
+				1EDE10F01EE1F8BE0015D34E /* LaunchScreen.storyboard */,
+				1EDE10F31EE1F8BE0015D34E /* Info.plist */,
+			);
+			path = BasicMongoApplication;
+			sourceTree = "<group>";
+		};
+		1EDE10FB1EE1F8BE0015D34E /* BasicMongoApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EDE10FC1EE1F8BE0015D34E /* BasicMongoApplicationTests.swift */,
+				1EDE10FE1EE1F8BE0015D34E /* Info.plist */,
+			);
+			path = BasicMongoApplicationTests;
+			sourceTree = "<group>";
+		};
+		1EDE11061EE1F8BE0015D34E /* BasicMongoApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EDE11071EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift */,
+				1EDE11091EE1F8BE0015D34E /* Info.plist */,
+			);
+			path = BasicMongoApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EDE10E31EE1F8BE0015D34E /* BasicMongoApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDE110C1EE1F8BE0015D34E /* Build configuration list for PBXNativeTarget "BasicMongoApplication" */;
+			buildPhases = (
+				1EDE10E01EE1F8BE0015D34E /* Sources */,
+				1EDE10E11EE1F8BE0015D34E /* Frameworks */,
+				1EDE10E21EE1F8BE0015D34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicMongoApplication;
+			productName = BasicMongoApplication;
+			productReference = 1EDE10E41EE1F8BE0015D34E /* BasicMongoApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EDE10F71EE1F8BE0015D34E /* BasicMongoApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDE110F1EE1F8BE0015D34E /* Build configuration list for PBXNativeTarget "BasicMongoApplicationTests" */;
+			buildPhases = (
+				1EDE10F41EE1F8BE0015D34E /* Sources */,
+				1EDE10F51EE1F8BE0015D34E /* Frameworks */,
+				1EDE10F61EE1F8BE0015D34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDE10FA1EE1F8BE0015D34E /* PBXTargetDependency */,
+			);
+			name = BasicMongoApplicationTests;
+			productName = BasicMongoApplicationTests;
+			productReference = 1EDE10F81EE1F8BE0015D34E /* BasicMongoApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EDE11021EE1F8BE0015D34E /* BasicMongoApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDE11121EE1F8BE0015D34E /* Build configuration list for PBXNativeTarget "BasicMongoApplicationUITests" */;
+			buildPhases = (
+				1EDE10FF1EE1F8BE0015D34E /* Sources */,
+				1EDE11001EE1F8BE0015D34E /* Frameworks */,
+				1EDE11011EE1F8BE0015D34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDE11051EE1F8BE0015D34E /* PBXTargetDependency */,
+			);
+			name = BasicMongoApplicationUITests;
+			productName = BasicMongoApplicationUITests;
+			productReference = 1EDE11031EE1F8BE0015D34E /* BasicMongoApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EDE10DC1EE1F8BE0015D34E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MongoDB;
+				TargetAttributes = {
+					1EDE10E31EE1F8BE0015D34E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T8YB9L4SM5;
+						ProvisioningStyle = Automatic;
+					};
+					1EDE10F71EE1F8BE0015D34E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T8YB9L4SM5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EDE10E31EE1F8BE0015D34E;
+					};
+					1EDE11021EE1F8BE0015D34E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T8YB9L4SM5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EDE10E31EE1F8BE0015D34E;
+					};
+				};
+			};
+			buildConfigurationList = 1EDE10DF1EE1F8BE0015D34E /* Build configuration list for PBXProject "BasicMongoApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EDE10DB1EE1F8BE0015D34E;
+			productRefGroup = 1EDE10E51EE1F8BE0015D34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EDE10E31EE1F8BE0015D34E /* BasicMongoApplication */,
+				1EDE10F71EE1F8BE0015D34E /* BasicMongoApplicationTests */,
+				1EDE11021EE1F8BE0015D34E /* BasicMongoApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EDE10E21EE1F8BE0015D34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDE10F21EE1F8BE0015D34E /* LaunchScreen.storyboard in Resources */,
+				1EDE10EF1EE1F8BE0015D34E /* Assets.xcassets in Resources */,
+				1EDE10ED1EE1F8BE0015D34E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDE10F61EE1F8BE0015D34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDE11011EE1F8BE0015D34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EDE10E01EE1F8BE0015D34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDE10EA1EE1F8BE0015D34E /* ViewController.swift in Sources */,
+				1EDE10E81EE1F8BE0015D34E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDE10F41EE1F8BE0015D34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDE10FD1EE1F8BE0015D34E /* BasicMongoApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDE10FF1EE1F8BE0015D34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDE11081EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EDE10FA1EE1F8BE0015D34E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EDE10E31EE1F8BE0015D34E /* BasicMongoApplication */;
+			targetProxy = 1EDE10F91EE1F8BE0015D34E /* PBXContainerItemProxy */;
+		};
+		1EDE11051EE1F8BE0015D34E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EDE10E31EE1F8BE0015D34E /* BasicMongoApplication */;
+			targetProxy = 1EDE11041EE1F8BE0015D34E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EDE10EB1EE1F8BE0015D34E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDE10EC1EE1F8BE0015D34E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EDE10F01EE1F8BE0015D34E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDE10F11EE1F8BE0015D34E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EDE110A1EE1F8BE0015D34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EDE110B1EE1F8BE0015D34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EDE110D1EE1F8BE0015D34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T8YB9L4SM5;
+				INFOPLIST_FILE = BasicMongoApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoDB.BasicMongoApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EDE110E1EE1F8BE0015D34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T8YB9L4SM5;
+				INFOPLIST_FILE = BasicMongoApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoDB.BasicMongoApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1EDE11101EE1F8BE0015D34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T8YB9L4SM5;
+				INFOPLIST_FILE = BasicMongoApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoDB.BasicMongoApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicMongoApplication.app/BasicMongoApplication";
+			};
+			name = Debug;
+		};
+		1EDE11111EE1F8BE0015D34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T8YB9L4SM5;
+				INFOPLIST_FILE = BasicMongoApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoDB.BasicMongoApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicMongoApplication.app/BasicMongoApplication";
+			};
+			name = Release;
+		};
+		1EDE11131EE1F8BE0015D34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T8YB9L4SM5;
+				INFOPLIST_FILE = BasicMongoApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoDB.BasicMongoApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BasicMongoApplication;
+			};
+			name = Debug;
+		};
+		1EDE11141EE1F8BE0015D34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T8YB9L4SM5;
+				INFOPLIST_FILE = BasicMongoApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoDB.BasicMongoApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BasicMongoApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EDE10DF1EE1F8BE0015D34E /* Build configuration list for PBXProject "BasicMongoApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDE110A1EE1F8BE0015D34E /* Debug */,
+				1EDE110B1EE1F8BE0015D34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EDE110C1EE1F8BE0015D34E /* Build configuration list for PBXNativeTarget "BasicMongoApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDE110D1EE1F8BE0015D34E /* Debug */,
+				1EDE110E1EE1F8BE0015D34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EDE110F1EE1F8BE0015D34E /* Build configuration list for PBXNativeTarget "BasicMongoApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDE11101EE1F8BE0015D34E /* Debug */,
+				1EDE11111EE1F8BE0015D34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EDE11121EE1F8BE0015D34E /* Build configuration list for PBXNativeTarget "BasicMongoApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDE11131EE1F8BE0015D34E /* Debug */,
+				1EDE11141EE1F8BE0015D34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EDE10DC1EE1F8BE0015D34E /* Project object */;
+}
