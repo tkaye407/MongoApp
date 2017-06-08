@@ -14,6 +14,7 @@
 		1EDE10F21EE1F8BE0015D34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE10F01EE1F8BE0015D34E /* LaunchScreen.storyboard */; };
 		1EDE10FD1EE1F8BE0015D34E /* BasicMongoApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE10FC1EE1F8BE0015D34E /* BasicMongoApplicationTests.swift */; };
 		1EDE11081EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE11071EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift */; };
+		A3B6846E1EE9A10500AF216C /* libmongod.c in Sources */ = {isa = PBXBuildFile; fileRef = A3B6846C1EE9A10500AF216C /* libmongod.c */; };
 		A3EB4CB11EE98EF3004DD3A5 /* echo.c in Sources */ = {isa = PBXBuildFile; fileRef = A3EB4CAF1EE98EF3004DD3A5 /* echo.c */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		1EDE11031EE1F8BE0015D34E /* BasicMongoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMongoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDE11071EE1F8BE0015D34E /* BasicMongoApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMongoApplicationUITests.swift; sourceTree = "<group>"; };
 		1EDE11091EE1F8BE0015D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B6846C1EE9A10500AF216C /* libmongod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmongod.c; sourceTree = "<group>"; };
+		A3B6846D1EE9A10500AF216C /* libmongod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmongod.h; sourceTree = "<group>"; };
 		A3EB4CAB1EE98E2C004DD3A5 /* BasicMongoApplication-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicMongoApplication-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3EB4CAF1EE98EF3004DD3A5 /* echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = echo.c; sourceTree = "<group>"; };
 		A3EB4CB01EE98EF3004DD3A5 /* echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echo.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		1EDE10E61EE1F8BE0015D34E /* BasicMongoApplication */ = {
 			isa = PBXGroup;
 			children = (
+				A3B6846C1EE9A10500AF216C /* libmongod.c */,
+				A3B6846D1EE9A10500AF216C /* libmongod.h */,
 				1EDE10E71EE1F8BE0015D34E /* AppDelegate.swift */,
 				1EDE10E91EE1F8BE0015D34E /* ViewController.swift */,
 				1EDE10EB1EE1F8BE0015D34E /* Main.storyboard */,
@@ -273,6 +278,7 @@
 				1EDE10EA1EE1F8BE0015D34E /* ViewController.swift in Sources */,
 				1EDE10E81EE1F8BE0015D34E /* AppDelegate.swift in Sources */,
 				A3EB4CB11EE98EF3004DD3A5 /* echo.c in Sources */,
+				A3B6846E1EE9A10500AF216C /* libmongod.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
