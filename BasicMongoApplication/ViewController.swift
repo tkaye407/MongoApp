@@ -29,8 +29,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func bringFromMemory(_ sender: Any) {
+        let num = generateNum()
         label.text = textField.text
-        textField.text = ""
+        textField.text = "\(num)"
     }
 }
 
