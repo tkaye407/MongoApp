@@ -58,8 +58,8 @@ int libmongodbcapi_db_client_wire_protocol_rpc(libmongodbcapi_client* client, co
 
 	(*output_size) = sizeof(char) * (input_size + 3);
 	(*output) = malloc(*output_size);
-	((char *)(*output))[0] = client->db_num;
-	((char *)(*output))[1] = client->client_num;
+	((char *)(*output))[0] = 'a';
+	((char *)(*output))[1] = 'b';
 	((char *)(*output))[2] = ':';
 
 	memcpy((*output) + 3, input, input_size);
