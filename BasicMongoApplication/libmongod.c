@@ -10,6 +10,9 @@ struct libmongodbcapi_db {
 struct libmongodbcapi_client {
 	char db_num;
 	char client_num;
+    size_t output_size;
+    size_t buffer_size;
+    void* output_buffer;
 };
 
 libmongodbcapi_db* libmongodbcapi_db_new(int argc, char** argv, char** envp) {
@@ -42,11 +45,17 @@ libmongodbcapi_client* libmongodbcapi_db_client_new(libmongodbcapi_db* db) {
 	}
 	our_client->db_num = db->db_num;
 	our_client->client_num = (db->num_clients)++;
+    our_client->output_buffer = NULL;
+    our_client->output_size = 0;
+    our_client->buffer_size = 0;
 	return our_client;
 }
 
 void libmongodbcapi_db_client_destroy(libmongodbcapi_client* client) {
-	if (client != NULL) {
+    if (client->output_buffer != NULL) {
+        free(client->output_buffer);
+    }
+    if (client != NULL) {
 		free(client);
 	}
 }
@@ -55,15 +64,35 @@ int libmongodbcapi_db_client_wire_protocol_rpc(libmongodbcapi_client* client, co
 	if (input == NULL || output == NULL || (*output) == NULL) {
 		return LIBMONGODBCAPI_ERROR_UNKNOWN;
 	}
+    // this should be the size of the return message, which is input_size + 4 for now
+    if (client->buffer_size == 0) {
+        client->output_buffer = malloc(sizeof(char) * (input_size + 4));
+        if (client->output_buffer == NULL) {
+            return LIBMONGODBCAPI_ERROR_UNKNOWN;
+        }
+        client->buffer_size = input_size + 4;
+    }
+    if( input_size + 4 > client->buffer_size) {
+        size_t temp_size = sizeof(char) * (input_size + 4);
+        void * new_buf = realloc(client->output_buffer, temp_size);
+        if (new_buf == NULL) {
+            return LIBMONGODBCAPI_ERROR_UNKNOWN;
+        }
+        client->output_size = temp_size;
+        client->output_buffer = new_buf;
+    }
 
-	(*output_size) = sizeof(char) * (input_size + 3);
-	(*output) = malloc(*output_size);
-	((char *)(*output))[0] = 'a';
-	((char *)(*output))[1] = 'b';
-	((char *)(*output))[2] = ':';
-
-	memcpy((*output) + 3, input, input_size);
-
+    
+    (*output_size) = client->output_size;
+    (*output) = client->output_buffer;
+	((char *)(client->output_buffer))[0] = 'a';
+	((char *)(client->output_buffer))[1] = 'b';
+	((char *)(client->output_buffer))[2] = ':';
+    ((char *)(client->output_buffer))[(client->output_size) - 1] = '\0';
+    memcpy((client->output_buffer) + 3, input, input_size);
+    (*output_size) = client->output_size;
+    (*output) = client->output_buffer;
+	
 	return LIBMONGODBCAPI_ERROR_SUCCESS;
 }
 
